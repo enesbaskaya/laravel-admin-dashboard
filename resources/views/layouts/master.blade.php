@@ -1,0 +1,5 @@
+@include('layouts.header')
+@include('layouts.left-menu')
+@yield('content')
+@include('layouts.notifications')
+@include('layouts.footer')
